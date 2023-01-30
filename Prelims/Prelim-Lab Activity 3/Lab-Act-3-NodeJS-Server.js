@@ -27,7 +27,6 @@ var server = http.createServer(function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/html' });
     res.write('<html><h1>This is the Gallery Page</h1></html>');
     res.end();
-
   } else res.end('Invalid Request!');
 });
 
