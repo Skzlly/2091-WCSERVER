@@ -3,5 +3,5 @@ module.exports = function (firstName, lastName) {
   this.lastName = lastName;
   this.fullname = function () {
     return this.firstName + ' ' + this.lastName;
-  };
-};
+  }
+}
