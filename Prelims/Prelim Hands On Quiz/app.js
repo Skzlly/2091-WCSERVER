@@ -6,7 +6,7 @@ const calc = require('./calculations.js');
 var rateHour = 300;
 var HoursWork = 4;
 var perDay = 6;
-console.log('Rate Per day -', rateHour);
+console.log('Rate Per Hour -', rateHour);
 console.log('Hours Worked -', HoursWork);
 console.log('Days In A Week -', perDay);
 const grossIncome = rateHour * HoursWork * perDay;
