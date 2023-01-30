@@ -1,9 +1,25 @@
-var calc = require('./calculations.js');
+//Garcia, Louis Jae
+//WD 201
 
-console.log(calc.add(5, 6));
+const calc = require('./calculations.js');
 
-console.log(calc.subtract(5, 6));
+var rateHour = 300;
+var HoursWork = 4;
+var perDay = 6;
+const grossIncome = rateHour * HoursWork * perDay;
 
-console.log(calc.multiply(5, 6));
+const tax = calc.multiply(grossIncome, 0.1);
+const sss = 1200;
+const pagibig = 300;
+const philhealth = 400;
 
-console.log(calc.divide(5, 6));
+const totalDeduc = calc.add(tax + sss + pagibig + philhealth);
+const netSal = calc.subtract(grossIncome, totalDeduc);
+
+console.log('The gross income is ', grossIncome);
+console.log('Tax: ', tax);
+console.log('SSS: ', sss);
+console.log('Pag-Ibig fund: ', pagibig);
+console.log('PhilHealth: ', philhealth);
+console.log('Total deductions: ', totalDeduc);
+console.log('The net salary: ', netSal);

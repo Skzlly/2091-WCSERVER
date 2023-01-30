@@ -1,14 +1,9 @@
-function add(a, b) {
-  return a + b;
-}
-function subtract(a, b) {
-  return a - b;
-}
-function multiply(a, b) {
-  return a * b;
-}
-function add(a, b) {
-  return a / b;
-}
+//Garcia, Louis Jae
+//WD 201
 
-module.exports = Calculator;
+moodule.exports = {
+  add: (a, b) => a + b,
+  subtract: (a, b) => a - b,
+  multiply: (a, b) => a * b,
+  divide: (a, b) => a / b,
+};
