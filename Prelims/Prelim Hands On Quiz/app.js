@@ -11,6 +11,7 @@ console.log('Hours Worked -', HoursWork);
 console.log('Days In A Week -', perDay);
 const grossIncome = rateHour * HoursWork * perDay;
 console.log();
+
 const tax = calc.multiply(grossIncome, 0.1);
 const sss = 1200;
 const pagibig = 300;
