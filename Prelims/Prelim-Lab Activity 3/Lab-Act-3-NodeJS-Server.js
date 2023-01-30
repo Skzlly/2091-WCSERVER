@@ -1,4 +1,4 @@
-// Task Name: LAB 3
+localStorage// Task Name: LAB 3
 // Garcia, Louis Jae F.
 // WD 201 
 
