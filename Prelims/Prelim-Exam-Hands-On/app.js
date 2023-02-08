@@ -1,6 +1,6 @@
-var name = require('./greet.js');
+var prelim = require('./prelim.js');
 var name = 'Louis';
 
-name.greet(name);
-name.congratulations(name);
-name.Goodbye(name);
+prelim.greet(name);
+prelim.congratulations(name);
+prelim.Goodbye(name);
